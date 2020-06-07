@@ -1,2 +1,4 @@
 set autolist = ambiguous
 set complete = enhance
+
+(cat ~/.cache/wal/sequences &)

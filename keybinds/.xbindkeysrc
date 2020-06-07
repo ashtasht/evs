@@ -1,4 +1,4 @@
-"urxvt &"
+"alacritty &"
   Mod1 + t
 "sh ~/.local/bin/l"
   Mod1 + Return
