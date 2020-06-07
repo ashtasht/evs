@@ -1,0 +1,11 @@
+font:
+  normal:
+    family: Iosevka Term
+  size: 10
+
+window:
+  padding:
+    x: 35
+    y: 35
+
+tabspace: 2
