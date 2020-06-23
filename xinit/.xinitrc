@@ -23,7 +23,7 @@ img=$(ls -d $XDG_CONFIG_HOME/wallpapers/* | shuf -n1)
 wal -ni $img --backend wal &
 feh --bg-fill --no-xinerama --no-fehbg $img &
 
-picom -bco 0.5 -fD2 --inactive-opacity 0.82
+picom -bco 0.5 -fD2 -i 0.91
 
 redshift &
 
