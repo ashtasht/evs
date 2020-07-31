@@ -19,8 +19,7 @@ $HOME/.jackdrc &
 
 # Set the wallpaper
 img=$(ls -d $XDG_CONFIG_HOME/wallpapers/* | shuf -n1)
-#wal -ni $img --backend haishoku &
-wal -ni $img --backend wal &
+wal -ni $img --backend haishoku #-l &
 feh --bg-fill --no-xinerama --no-fehbg $img &
 
 picom -bco 0.5 -fD2 -i 0.91

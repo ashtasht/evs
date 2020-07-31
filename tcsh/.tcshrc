@@ -1,4 +1,6 @@
 set autolist = ambiguous
 set complete = enhance
 
+set path = ($path $home/.local/bin)
+
 (cat ~/.cache/wal/sequences &)
