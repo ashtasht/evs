@@ -1,6 +1,0 @@
-"alacritty &"
-  Mod1 + t
-"sh ~/.local/bin/l"
-  Mod1 + Return
-"sh ~/.local/bin/s"
-  Mod1 + s

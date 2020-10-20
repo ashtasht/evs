@@ -2,5 +2,10 @@ set autolist = ambiguous
 set complete = enhance
 
 set path = ($path $home/.local/bin)
+set LD_LIBRARY_PATH = (/usr/local/cuda/lib64)
+
+set EDITOR = vim
+
+alias more busybox more
 
 (cat ~/.cache/wal/sequences &)

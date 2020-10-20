@@ -1,13 +1,12 @@
 #/bin/bash
-alias hc=herbstclient
 
-# Varible
+# Varibles
 ufg=$(xgetres *.color1)
 unfg=$(xgetres *.color4)
 cfg=$(xgetres *.foreground)
 
 # Bar
-herbstclient --idle 2>/dev/null | {
+herbstclient --idle 2 > /dev/null | {
 	# tags
   tags=( $(herbstclient tag_status 0) )
   while true; do
@@ -37,4 +36,4 @@ herbstclient --idle 2>/dev/null | {
           quit_panel*) exit ;;
       esac
   done
-} | dzen2 -x 0 -h 33 -w 1920 -ta l #-fn "-misc-m+ 2m light-light-r-normal--*-85-100-*-p-*-ascii-0"
+} | dzen2 -x 1920 -h 33 -w 1920 -ta l #-fn "-misc-m+ 2m light-light-r-normal--*-85-100-*-p-*-ascii-0"
