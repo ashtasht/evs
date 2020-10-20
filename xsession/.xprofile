@@ -1,0 +1,5 @@
+#!/bin/tcsh
+
+setenv XMODIFIERS "@im=fcitx"
+setenv QT_IM_MODULE fcitx
+setenv GTK_IM_MODULE fcitx
