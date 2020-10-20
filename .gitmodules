@@ -1,0 +1,3 @@
+[submodule "vim/.vim/pack/bunsle/start/vim-workman"]
+	path = vim/.vim/pack/bunsle/start/vim-workman
+	url = https://github.com/tbroadley/vim-workman.git
