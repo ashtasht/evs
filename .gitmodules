@@ -1,3 +1,6 @@
 [submodule "vim/.vim/pack/bunsle/start/vim-workman"]
 	path = vim/.vim/pack/bunsle/start/vim-workman
 	url = https://github.com/tbroadley/vim-workman.git
+[submodule "vim/.vim/pack/bundle/start/nerdtree"]
+	path = vim/.vim/pack/bundle/start/nerdtree
+	url = https://github.com/preservim/nerdtree.git
